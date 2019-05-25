@@ -1,0 +1,16 @@
+.blocktext {
+  background: #DAE4F0;
+  width: 600px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+.blocktext a {
+  text-decoration: none;
+}
+
+.blocktext a:hover {
+  border: 2px solid yellow;
+}

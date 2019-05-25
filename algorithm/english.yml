@@ -1,0 +1,56 @@
+0. Just look at thing you want to realize
+1. Duplicate "basic" folder into "experiments" (it is just a template for creation new things)
+2. Go to the "index.html" file
+  2.1 div with a "wrapper" class - it is an abstract element wich we can reuse for another things
+    (for example:"button", "table", "grid", etc...). Rename the class as it should be
+3. Go to the "style.css" file
+  3.1 Use a class that was specified in 2.1
+4 Describe it in such many attributes as you can (width, height, background-color, font, etc)
+  4.1 Write your thing description in your own words if you do not know the attributes you want
+  4.2 Google what you want in russian
+  4.3 If you find the proper attribute name - go to the CSS/Reference and use it as it shown there
+  4.* You can inspect element in Chrome to copy/paste some things (use it as rare as you can)
+
+===============================================================================================================
+
+The html element ("wrapper" - it is just an abstract name):
+
+<div class="wrapper">
+  ...
+  ...               <--- write some elements here (for example - text or another tags)
+  ...
+</div>
+
+Can be accessed is css like so:
+
+.wrapper {
+  ...
+  ...               <--- write some attributes here
+  ...
+}
+
+Examples:
+
+------------------------
+<div class="button">
+  Go
+</div>
+
+.button {
+  color: red
+}
+------------------------
+<div class="list">
+  <div class="list-item">...</div>
+  <div class="list-item">...</div>
+  <div class="list-item">...</div>
+</div>
+
+.list {
+  width: 600px
+}
+
+.list-item {
+  coror: blue
+}
+------------------------
